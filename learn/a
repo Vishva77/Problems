@@ -1,0 +1,13 @@
+def sort(array):
+
+      return None
+
+import unittest
+class Test(unittest.testcase):
+   
+    def test_sort(self):
+        arr = [1,2,0,1,2,1,0]
+        sort(arr)
+        expected = [0,0,1,1,1,2,2]
+        self.assertEqual(arr.expected)
+        
